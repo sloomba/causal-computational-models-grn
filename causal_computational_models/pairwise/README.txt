@@ -1,0 +1,4 @@
+The investigator need only worry about two scripts in this folder, for pairwise analysis: 1. master_roctests_simple.m: to be used in case of a simple dataset. To use, simply change the first variable 'name' to the NAME of the dataset 'data_NAME.mat' 2. master_roctests.m: to be used in case of a composite dataset. To use, simply change the first variable 'name' to the NAME of the dataset 'data_NAME.mat'
+Running this script can be followed by running the script ../global/master_ige_simple.m and ../global/master_ige.m respectively, to do global analysis.
+Note that the scripts suffixed by {1,2,3,4,5} correspond specifically for the DREAM4 datasets. To evaluate 10/100 sized networks, appropriately make changes in these scripts.
+Note that the master script calls "run_roctests.m". Therefore, rename the files "run_roctestXXX.m" aptly, if you'd like to do a regular PW analysis, or a test of time-lag analysis.

@@ -1,0 +1,56 @@
+function example
+
+% example function for the SugiLM function
+
+%% example one
+% loading coupled example data (Y is coupled on X)
+data1 = importdata('exampledata1.mat');
+
+% parameters
+tau = 1; % time step 
+E   = 4; % dimension of reconstruction
+LMN = 5; % number of neigborhoods for L and M methods
+[ SugiC , SugiR , LM , SugiY , SugiX , origY , origX ]=SugiLM(data1(:,1),data1(:,2),tau,E,LMN);        
+
+% results
+disp('Sugiharas CMM correlation for estimate of Y and original Y in coupled case')
+SugiC(1)
+disp('Sugiharas CMM correlation for estimate of X and original X in coupled case')
+SugiC(2)
+
+plot(SugiY,origY,'ro',SugiX,origX,'b*')
+title('Estimated vs. original data in coupled case')
+xlabel('Estimated data') 
+ylabel('Original data') 
+legend('Y','X')
+
+L=100:100:1000; % vector of computing points
+
+%CCM(data1(:,1),data1(:,2),tau,E,LMN,L);
+
+%%  example two
+% loading non-coupled example data
+data2 = importdata('exampledata2.mat');
+
+% parameters
+tau = 1; % time step 
+E   = 4; % dimension of reconstruction
+LMN = 5; % number of neigborhoods for L and M methods
+[ SugiC , SugiR , LM , SugiY , SugiX , origY , origX ]=SugiLM(data2(:,1),data2(:,2),tau,E,LMN);        
+
+% results
+disp('Sugiharas CMM correlation for estimate of Y and original Y in non-coupled case')
+SugiC(1)
+disp('Sugiharas CMM correlation for estimate of X and original X in non-coupled case')
+SugiC(2)
+
+figure
+plot(SugiY,origY,'ro',SugiX,origX,'b*')
+title('Estimated vs. original data in non-coupled case')
+xlabel('Estimated data') 
+ylabel('Original data') 
+legend('Y','X')
+
+L=100:100:1000; % vector of computing points
+
+%CCM(data2(:,1),data2(:,2),tau,E,LMN,L);

@@ -1,0 +1,1 @@
+This folder contains the pairwise scripts aptly modified for DREAM4 dataset analysis. For the original techniques, refer to the folder '.Original'.

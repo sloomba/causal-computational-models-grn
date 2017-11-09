@@ -1,0 +1,4771 @@
+MATLAB is selecting SOFTWARE OPENGL rendering.
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2014 The MathWorks, Inc.
+                   R2014b (8.4.0.150421) 64-bit (glnxa64)
+                             September 15, 2014
+
+ 
+To get started, type one of these: helpwin, helpdesk, or demo.
+For product information, visit www.mathworks.com.
+ 
+[Warning: Directory already exists.] 
+[> In master_ige_simple_jug_1 at 5] 
+
+ans =
+
+    10    10
+
+[Warning: File: /home/cse/btech/cs1120240/btp/global/juggler.m Line: 25 Column:
+29
+The temporary variable nodematrix will be cleared at the beginning of each
+iteration of the parfor loop.
+Any value assigned to it before the loop will be lost.  If nodematrix is used
+before it is assigned in the parfor loop, a runtime error will occur.
+See Parallel for Loops in MATLAB, "Temporary Variables".] 
+[> In ige_analysis_jug at 20
+  In master_ige_simple_jug_1 at 21] 
+[Warning: File: /home/cse/btech/cs1120240/btp/global/juggler.m Line: 32 Column:
+12
+The temporary variable error will be cleared at the beginning of each iteration
+of the parfor loop.
+Any value assigned to it before the loop will be lost.  If error is used before
+it is assigned in the parfor loop, a runtime error will occur.
+See Parallel for Loops in MATLAB, "Temporary Variables".] 
+[> In ige_analysis_jug at 20
+  In master_ige_simple_jug_1 at 21] 
+Starting parallel pool (parpool) using the 'local' profile ... [Warning: Variable 'apitag' not found.] 
+[> In FileSerializer>iLoadMat at 273
+  In FileSerializer>FileSerializer.getFields at 91
+  In CJSSupport>CJSSupport.getProperties at 243
+  In CJSSupport>CJSSupport.getJobProperties at 419
+  In CJSJobMixin>CJSJobMixin.hGetProperty at 69
+  In GetSetImpl>iGetProperties at 262
+  In GetSetImpl>iGetAllProperties at 240
+  In GetSetImpl>GetSetImpl.getImpl at 124
+  In CustomGetSet>CustomGetSet.get at 30
+  In WorkUnitFinder>WorkUnitFinder.filter at 28
+  In WorkUnitFinder>WorkUnitFinder.find at 53
+  In Cluster.findJob>iIsMatchingJobNoError at 114
+  In Cluster.findJob>@(x)iIsMatchingJobNoError(x,varargin{:}) at 103
+  In Cluster.findJob>iFindSingleJobFromArrayNoError at 103
+  In Cluster.findJob>@(x)iFindSingleJobFromArrayNoError(x,varargin{:}) at 83
+  In Cluster.findJob at 83
+  In InteractiveClient>@(sched,tag,username)sched.findJob('ApiTag',tag,'Username',username) at 482
+  In InteractiveClient>InteractiveClient.pRemoveOldJobs at 439
+  In InteractiveClient>InteractiveClient.start at 308
+  In Pool.Pool>iStartClient at 537
+  In Pool.Pool>Pool.hBuildPool at 434
+  In parpool at 104
+  In PoolArrayManager>PoolArrayManager.getOrAutoCreateWithCleanup at 49
+  In pctTryCreatePoolIfNecessary at 23
+  In remoteparfor>remoteparfor.tryRemoteParfor at 27
+  In parallel_function at 433
+  In juggler at 18
+  In ige_analysis_jug at 20
+  In master_ige_simple_jug_1 at 21] 
+[Warning: Variable 'apitag' not found.] 
+[> In FileSerializer>iLoadMat at 273
+  In FileSerializer>FileSerializer.getFields at 91
+  In CJSSupport>CJSSupport.getProperties at 243
+  In CJSSupport>CJSSupport.getJobProperties at 419
+  In CJSJobMixin>CJSJobMixin.hGetProperty at 69
+  In GetSetImpl>iGetProperties at 262
+  In GetSetImpl>iGetAllProperties at 240
+  In GetSetImpl>GetSetImpl.getImpl at 124
+  In CustomGetSet>CustomGetSet.get at 30
+  In WorkUnitFinder>WorkUnitFinder.filter at 28
+  In WorkUnitFinder>WorkUnitFinder.find at 53
+  In Cluster.findJob>iIsMatchingJobNoError at 114
+  In Cluster.findJob>@(x)iIsMatchingJobNoError(x,varargin{:}) at 103
+  In Cluster.findJob>iFindSingleJobFromArrayNoError at 103
+  In Cluster.findJob>@(x)iFindSingleJobFromArrayNoError(x,varargin{:}) at 83
+  In Cluster.findJob at 83
+  In InteractiveClient>@(sched,tag,username)sched.findJob('ApiTag',tag,'Username',username) at 482
+  In InteractiveClient>InteractiveClient.pRemoveOldJobs at 439
+  In InteractiveClient>InteractiveClient.start at 308
+  In Pool.Pool>iStartClient at 537
+  In Pool.Pool>Pool.hBuildPool at 434
+  In parpool at 104
+  In PoolArrayManager>PoolArrayManager.getOrAutoCreateWithCleanup at 49
+  In pctTryCreatePoolIfNecessary at 23
+  In remoteparfor>remoteparfor.tryRemoteParfor at 27
+  In parallel_function at 433
+  In juggler at 18
+  In ige_analysis_jug at 20
+  In master_ige_simple_jug_1 at 21] 
+[Warning: Variable 'apitag' not found.] 
+[> In FileSerializer>iLoadMat at 273
+  In FileSerializer>FileSerializer.getFields at 91
+  In CJSSupport>CJSSupport.getProperties at 257
+  In CJSSupport>CJSSupport.getJobProperties at 419
+  In CJSJobMixin>CJSJobMixin.hGetProperty at 69
+  In GetSetImpl>iGetProperties at 262
+  In GetSetImpl>iGetAllProperties at 240
+  In GetSetImpl>GetSetImpl.getImpl at 124
+  In CustomGetSet>CustomGetSet.get at 30
+  In WorkUnitFinder>WorkUnitFinder.filter at 28
+  In WorkUnitFinder>WorkUnitFinder.find at 53
+  In Cluster.findJob>iIsMatchingJobNoError at 114
+  In Cluster.findJob>@(x)iIsMatchingJobNoError(x,varargin{:}) at 103
+  In Cluster.findJob>iFindSingleJobFromArrayNoError at 103
+  In Cluster.findJob>@(x)iFindSingleJobFromArrayNoError(x,varargin{:}) at 83
+  In Cluster.findJob at 83
+  In InteractiveClient>@(sched,tag,username)sched.findJob('ApiTag',tag,'Username',username) at 482
+  In InteractiveClient>InteractiveClient.pRemoveOldJobs at 439
+  In InteractiveClient>InteractiveClient.start at 308
+  In Pool.Pool>iStartClient at 537
+  In Pool.Pool>Pool.hBuildPool at 434
+  In parpool at 104
+  In PoolArrayManager>PoolArrayManager.getOrAutoCreateWithCleanup at 49
+  In pctTryCreatePoolIfNecessary at 23
+  In remoteparfor>remoteparfor.tryRemoteParfor at 27
+  In parallel_function at 433
+  In juggler at 18
+  In ige_analysis_jug at 20
+  In master_ige_simple_jug_1 at 21] 
+[Warning: Variable 'apitag' not found.] 
+[> In FileSerializer>iLoadMat at 273
+  In FileSerializer>FileSerializer.getFields at 91
+  In CJSSupport>CJSSupport.getProperties at 257
+  In CJSSupport>CJSSupport.getJobProperties at 419
+  In CJSJobMixin>CJSJobMixin.hGetProperty at 69
+  In GetSetImpl>iGetProperties at 262
+  In GetSetImpl>iGetAllProperties at 240
+  In GetSetImpl>GetSetImpl.getImpl at 124
+  In CustomGetSet>CustomGetSet.get at 30
+  In WorkUnitFinder>WorkUnitFinder.filter at 28
+  In WorkUnitFinder>WorkUnitFinder.find at 53
+  In Cluster.findJob>iIsMatchingJobNoError at 114
+  In Cluster.findJob>@(x)iIsMatchingJobNoError(x,varargin{:}) at 103
+  In Cluster.findJob>iFindSingleJobFromArrayNoError at 103
+  In Cluster.findJob>@(x)iFindSingleJobFromArrayNoError(x,varargin{:}) at 83
+  In Cluster.findJob at 83
+  In InteractiveClient>@(sched,tag,username)sched.findJob('ApiTag',tag,'Username',username) at 482
+  In InteractiveClient>InteractiveClient.pRemoveOldJobs at 439
+  In InteractiveClient>InteractiveClient.start at 308
+  In Pool.Pool>iStartClient at 537
+  In Pool.Pool>Pool.hBuildPool at 434
+  In parpool at 104
+  In PoolArrayManager>PoolArrayManager.getOrAutoCreateWithCleanup at 49
+  In pctTryCreatePoolIfNecessary at 23
+  In remoteparfor>remoteparfor.tryRemoteParfor at 27
+  In parallel_function at 433
+  In juggler at 18
+  In ige_analysis_jug at 20
+  In master_ige_simple_jug_1 at 21] 
+connected to 12 workers.
+
+ans =
+
+    35
+
+
+iters =
+
+    20
+
+
+ans =
+
+    45
+
+
+iters =
+
+    20
+
+
+ans =
+
+    40
+
+
+iters =
+
+    20
+
+
+ans =
+
+    20
+
+
+iters =
+
+    20
+
+
+ans =
+
+    10
+
+
+iters =
+
+    20
+
+
+ans =
+
+    15
+
+
+iters =
+
+    20
+
+
+ans =
+
+    57
+
+
+iters =
+
+    20
+
+
+ans =
+
+     5
+
+
+iters =
+
+    20
+
+
+ans =
+
+    25
+
+
+iters =
+
+    20
+
+
+ans =
+
+    49
+
+
+iters =
+
+    20
+
+
+ans =
+
+    53
+
+
+iters =
+
+    20
+
+
+ans =
+
+    30
+
+
+iters =
+
+    20
+
+
+ans =
+
+    34
+
+
+iters =
+
+    20
+
+
+ans =
+
+    39
+
+
+iters =
+
+    20
+
+
+ans =
+
+    19
+
+
+iters =
+
+    20
+
+
+ans =
+
+     9
+
+
+iters =
+
+    20
+
+
+ans =
+
+    14
+
+
+iters =
+
+    17
+
+
+ans =
+
+    56
+
+
+iters =
+
+    20
+
+
+ans =
+
+     4
+
+
+iters =
+
+    20
+
+
+ans =
+
+    24
+
+
+iters =
+
+    20
+
+
+ans =
+
+    48
+
+
+iters =
+
+    20
+
+
+ans =
+
+    52
+
+
+iters =
+
+    20
+
+
+ans =
+
+    29
+
+
+iters =
+
+    20
+
+
+ans =
+
+    33
+
+
+iters =
+
+    20
+
+
+ans =
+
+    44
+
+
+iters =
+
+    20
+
+
+ans =
+
+    18
+
+
+iters =
+
+    20
+
+
+ans =
+
+     8
+
+
+iters =
+
+    20
+
+
+ans =
+
+    13
+
+
+iters =
+
+    20
+
+
+ans =
+
+    55
+
+
+iters =
+
+    20
+
+
+ans =
+
+     3
+
+
+iters =
+
+    20
+
+
+ans =
+
+    23
+
+
+iters =
+
+    20
+
+
+ans =
+
+    47
+
+
+iters =
+
+    20
+
+
+ans =
+
+    28
+
+
+iters =
+
+    20
+
+
+ans =
+
+    38
+
+
+iters =
+
+    20
+
+
+ans =
+
+     7
+
+
+iters =
+
+    20
+
+
+ans =
+
+    54
+
+
+iters =
+
+    20
+
+
+ans =
+
+    22
+
+
+iters =
+
+    20
+
+
+ans =
+
+    51
+
+
+iters =
+
+    20
+
+
+ans =
+
+    32
+
+
+iters =
+
+    20
+
+
+ans =
+
+    46
+
+
+iters =
+
+    20
+
+
+ans =
+
+    27
+
+
+iters =
+
+    20
+
+
+ans =
+
+    43
+
+
+iters =
+
+    20
+
+
+ans =
+
+    37
+
+
+iters =
+
+    20
+
+
+ans =
+
+    17
+
+
+iters =
+
+    20
+
+
+ans =
+
+    12
+
+
+iters =
+
+    20
+
+
+ans =
+
+     2
+
+
+iters =
+
+    20
+
+
+ans =
+
+    50
+
+
+iters =
+
+    20
+
+
+ans =
+
+     6
+
+
+iters =
+
+    20
+
+
+ans =
+
+    21
+
+
+iters =
+
+    20
+
+
+ans =
+
+    60
+
+
+iters =
+
+    20
+
+
+ans =
+
+    31
+
+
+iters =
+
+    20
+
+
+ans =
+
+    26
+
+
+iters =
+
+    20
+
+
+ans =
+
+    16
+
+
+iters =
+
+    20
+
+
+ans =
+
+     1
+
+
+iters =
+
+    20
+
+
+ans =
+
+    63
+
+
+iters =
+
+    20
+
+
+ans =
+
+    11
+
+
+iters =
+
+    20
+
+
+ans =
+
+    36
+
+
+iters =
+
+    20
+
+
+ans =
+
+    72
+
+
+iters =
+
+    20
+
+
+ans =
+
+    42
+
+
+iters =
+
+    20
+
+
+ans =
+
+    70
+
+
+iters =
+
+    20
+
+
+ans =
+
+    59
+
+
+iters =
+
+    20
+
+
+ans =
+
+    68
+
+
+iters =
+
+    20
+
+
+ans =
+
+    62
+
+
+iters =
+
+    20
+
+
+ans =
+
+    66
+
+
+iters =
+
+    20
+
+
+ans =
+
+    74
+
+
+iters =
+
+    20
+
+
+ans =
+
+    80
+
+
+iters =
+
+    20
+
+
+ans =
+
+    78
+
+
+iters =
+
+    20
+
+
+ans =
+
+    79
+
+
+iters =
+
+    20
+
+
+ans =
+
+    41
+
+
+iters =
+
+    20
+
+
+ans =
+
+    65
+
+
+iters =
+
+    20
+
+
+ans =
+
+    76
+
+
+iters =
+
+    20
+
+
+ans =
+
+    67
+
+
+iters =
+
+    20
+
+
+ans =
+
+    69
+
+
+iters =
+
+    20
+
+
+ans =
+
+    58
+
+
+iters =
+
+    20
+
+
+ans =
+
+    71
+
+
+iters =
+
+    20
+
+
+ans =
+
+    73
+
+
+iters =
+
+    20
+
+
+ans =
+
+    61
+
+
+iters =
+
+    20
+
+
+ans =
+
+    77
+
+
+iters =
+
+    20
+
+
+ans =
+
+    82
+
+
+iters =
+
+    20
+
+
+ans =
+
+    81
+
+
+iters =
+
+    20
+
+
+ans =
+
+    83
+
+
+iters =
+
+    20
+
+
+ans =
+
+    64
+
+
+iters =
+
+    20
+
+
+ans =
+
+    86
+
+
+iters =
+
+    20
+
+
+ans =
+
+    85
+
+
+iters =
+
+    20
+
+
+ans =
+
+    84
+
+
+iters =
+
+    20
+
+
+ans =
+
+    87
+
+
+iters =
+
+    20
+
+
+ans =
+
+    75
+
+
+iters =
+
+    20
+
+
+ans =
+
+    88
+
+
+iters =
+
+    20
+
+
+ans =
+
+    89
+
+
+iters =
+
+    20
+
+
+ans =
+
+    90
+
+
+iters =
+
+    20
+
+
+adj_found =
+
+     0     0     0     0     1     0     0     0     0     0
+     0     0     0     0     0     0     1     0     0     0
+     0     0     0     0     0     0     1     0     0     0
+     0     0     0     0     0     0     1     0     0     0
+     1     0     0     0     0     0     0     0     0     0
+     0     0     0     0     0     0     0     1     0     0
+     0     1     1     1     0     0     0     0     1     0
+     0     0     0     0     0     1     0     0     0     0
+     0     0     0     0     0     0     1     0     0     1
+     0     0     0     0     0     0     0     0     1     0
+
+[Warning: MATLAB has disabled some advanced graphics rendering features by
+switching to software OpenGL. For more information, click <a
+href="matlab:opengl('problems')">here</a>.] 
+Current plot held
+Current plot released
+Current plot held
+Current plot released
+
+ans =
+
+    10    10
+
+
+ans =
+
+    35
+
+
+iters =
+
+    20
+
+
+ans =
+
+    45
+
+
+iters =
+
+    20
+
+
+ans =
+
+    40
+
+
+iters =
+
+    20
+
+
+ans =
+
+    20
+
+
+iters =
+
+    20
+
+
+ans =
+
+    10
+
+
+iters =
+
+    20
+
+
+ans =
+
+    15
+
+
+iters =
+
+    20
+
+
+ans =
+
+    57
+
+
+iters =
+
+    20
+
+
+ans =
+
+     5
+
+
+iters =
+
+    20
+
+
+ans =
+
+    25
+
+
+iters =
+
+    20
+
+
+ans =
+
+    49
+
+
+iters =
+
+    20
+
+
+ans =
+
+    53
+
+
+iters =
+
+    20
+
+
+ans =
+
+    30
+
+
+iters =
+
+    20
+
+
+ans =
+
+    34
+
+
+iters =
+
+    20
+
+
+ans =
+
+    44
+
+
+iters =
+
+    20
+
+
+ans =
+
+    39
+
+
+iters =
+
+    20
+
+
+ans =
+
+    19
+
+
+iters =
+
+    20
+
+
+ans =
+
+     9
+
+
+iters =
+
+    20
+
+
+ans =
+
+    14
+
+
+iters =
+
+    20
+
+
+ans =
+
+    56
+
+
+iters =
+
+    20
+
+
+ans =
+
+     4
+
+
+iters =
+
+    20
+
+
+ans =
+
+    48
+
+
+iters =
+
+    20
+
+
+ans =
+
+    52
+
+
+iters =
+
+    20
+
+
+ans =
+
+    29
+
+
+iters =
+
+    20
+
+
+ans =
+
+    33
+
+
+iters =
+
+    20
+
+
+ans =
+
+    43
+
+
+iters =
+
+    20
+
+
+ans =
+
+    38
+
+
+iters =
+
+    20
+
+
+ans =
+
+    18
+
+
+iters =
+
+    20
+
+
+ans =
+
+     8
+
+
+iters =
+
+    20
+
+
+ans =
+
+    13
+
+
+iters =
+
+    20
+
+
+ans =
+
+    55
+
+
+iters =
+
+    20
+
+
+ans =
+
+     3
+
+
+iters =
+
+    20
+
+
+ans =
+
+    24
+
+
+iters =
+
+    20
+
+
+ans =
+
+    47
+
+
+iters =
+
+    20
+
+
+ans =
+
+    51
+
+
+iters =
+
+    20
+
+
+ans =
+
+    28
+
+
+iters =
+
+    20
+
+
+ans =
+
+    42
+
+
+iters =
+
+    20
+
+
+ans =
+
+    54
+
+
+iters =
+
+    20
+
+
+ans =
+
+     7
+
+
+iters =
+
+    20
+
+
+ans =
+
+    46
+
+
+iters =
+
+    20
+
+
+ans =
+
+    32
+
+
+iters =
+
+    20
+
+
+ans =
+
+    37
+
+
+iters =
+
+    20
+
+
+ans =
+
+    17
+
+
+iters =
+
+    20
+
+
+ans =
+
+    12
+
+
+iters =
+
+    20
+
+
+ans =
+
+     2
+
+
+iters =
+
+    20
+
+
+ans =
+
+    23
+
+
+iters =
+
+    20
+
+
+ans =
+
+    50
+
+
+iters =
+
+    20
+
+
+ans =
+
+    27
+
+
+iters =
+
+    20
+
+
+ans =
+
+    41
+
+
+iters =
+
+    20
+
+
+ans =
+
+     6
+
+
+iters =
+
+    20
+
+
+ans =
+
+    60
+
+
+iters =
+
+    20
+
+
+ans =
+
+    31
+
+
+iters =
+
+    20
+
+
+ans =
+
+    63
+
+
+iters =
+
+    20
+
+
+ans =
+
+    26
+
+
+iters =
+
+    20
+
+
+ans =
+
+     1
+
+
+iters =
+
+    20
+
+
+ans =
+
+    16
+
+
+iters =
+
+    20
+
+
+ans =
+
+    36
+
+
+iters =
+
+    20
+
+
+ans =
+
+    11
+
+
+iters =
+
+    20
+
+
+ans =
+
+    72
+
+
+iters =
+
+    20
+
+
+ans =
+
+    68
+
+
+iters =
+
+    20
+
+
+ans =
+
+    70
+
+
+iters =
+
+    20
+
+
+ans =
+
+    59
+
+
+iters =
+
+    20
+
+
+ans =
+
+    22
+
+
+iters =
+
+    20
+
+
+ans =
+
+    62
+
+
+iters =
+
+    20
+
+
+ans =
+
+    66
+
+
+iters =
+
+    20
+
+
+ans =
+
+    74
+
+
+iters =
+
+    20
+
+
+ans =
+
+    79
+
+
+iters =
+
+    20
+
+
+ans =
+
+    78
+
+
+iters =
+
+    20
+
+
+ans =
+
+    80
+
+
+iters =
+
+    20
+
+
+ans =
+
+    76
+
+
+iters =
+
+    20
+
+
+ans =
+
+    67
+
+
+iters =
+
+    20
+
+
+ans =
+
+    65
+
+
+iters =
+
+    20
+
+
+ans =
+
+    69
+
+
+iters =
+
+    20
+
+
+ans =
+
+    58
+
+
+iters =
+
+    20
+
+
+ans =
+
+    71
+
+
+iters =
+
+    20
+
+
+ans =
+
+    61
+
+
+iters =
+
+    20
+
+
+ans =
+
+    21
+
+
+iters =
+
+    20
+
+
+ans =
+
+    73
+
+
+iters =
+
+    20
+
+
+ans =
+
+    75
+
+
+iters =
+
+    20
+
+
+ans =
+
+    77
+
+
+iters =
+
+    20
+
+
+ans =
+
+    81
+
+
+iters =
+
+    20
+
+
+ans =
+
+    82
+
+
+iters =
+
+    20
+
+
+ans =
+
+    64
+
+
+iters =
+
+    20
+
+
+ans =
+
+    84
+
+
+iters =
+
+    20
+
+
+ans =
+
+    85
+
+
+iters =
+
+    20
+
+
+ans =
+
+    83
+
+
+iters =
+
+    20
+
+
+ans =
+
+    88
+
+
+iters =
+
+    20
+
+
+ans =
+
+    86
+
+
+iters =
+
+    20
+
+
+ans =
+
+    89
+
+
+iters =
+
+    20
+
+
+ans =
+
+    87
+
+
+iters =
+
+    20
+
+
+ans =
+
+    90
+
+
+iters =
+
+    20
+
+
+adj_found =
+
+     0     0     0     0     1     0     1     1     1     0
+     0     0     0     0     0     0     0     0     0     0
+     1     0     0     0     0     0     0     0     0     0
+     0     0     0     0     0     0     0     0     0     0
+     1     0     0     0     0     0     0     0     0     0
+     1     0     0     0     0     0     0     0     0     0
+     1     0     1     0     0     0     0     1     0     0
+     1     0     0     0     0     1     1     0     1     0
+     1     0     0     0     0     0     0     1     0     1
+     1     0     0     0     0     0     0     0     0     0
+
+Current plot held
+Current plot released
+Current plot held
+Current plot released
+
+ans =
+
+    10    10
+
+
+ans =
+
+    35
+
+
+iters =
+
+    20
+
+
+ans =
+
+    45
+
+
+iters =
+
+    20
+
+
+ans =
+
+    40
+
+
+iters =
+
+    20
+
+
+ans =
+
+    20
+
+
+iters =
+
+    20
+
+
+ans =
+
+    10
+
+
+iters =
+
+    20
+
+
+ans =
+
+    15
+
+
+iters =
+
+    20
+
+
+ans =
+
+    57
+
+
+iters =
+
+    20
+
+
+ans =
+
+     5
+
+
+iters =
+
+    20
+
+
+ans =
+
+    25
+
+
+iters =
+
+    20
+
+
+ans =
+
+    49
+
+
+iters =
+
+    20
+
+
+ans =
+
+    53
+
+
+iters =
+
+    20
+
+
+ans =
+
+    30
+
+
+iters =
+
+    20
+
+
+ans =
+
+    34
+
+
+iters =
+
+    20
+
+
+ans =
+
+    44
+
+
+iters =
+
+    20
+
+
+ans =
+
+    39
+
+
+iters =
+
+    20
+
+
+ans =
+
+    19
+
+
+iters =
+
+    20
+
+
+ans =
+
+     9
+
+
+iters =
+
+    20
+
+
+ans =
+
+    14
+
+
+iters =
+
+    20
+
+
+ans =
+
+    56
+
+
+iters =
+
+    20
+
+
+ans =
+
+     4
+
+
+iters =
+
+    20
+
+
+ans =
+
+    48
+
+
+iters =
+
+    20
+
+
+ans =
+
+    52
+
+
+iters =
+
+    20
+
+
+ans =
+
+    29
+
+
+iters =
+
+    20
+
+
+ans =
+
+    33
+
+
+iters =
+
+    20
+
+
+ans =
+
+    43
+
+
+iters =
+
+    20
+
+
+ans =
+
+    38
+
+
+iters =
+
+    20
+
+
+ans =
+
+    18
+
+
+iters =
+
+    20
+
+
+ans =
+
+     8
+
+
+iters =
+
+    20
+
+
+ans =
+
+    13
+
+
+iters =
+
+    20
+
+
+ans =
+
+    55
+
+
+iters =
+
+    20
+
+
+ans =
+
+     3
+
+
+iters =
+
+    20
+
+
+ans =
+
+    24
+
+
+iters =
+
+    20
+
+
+ans =
+
+    47
+
+
+iters =
+
+    20
+
+
+ans =
+
+    51
+
+
+iters =
+
+    20
+
+
+ans =
+
+    28
+
+
+iters =
+
+    20
+
+
+ans =
+
+    42
+
+
+iters =
+
+    20
+
+
+ans =
+
+     7
+
+
+iters =
+
+    20
+
+
+ans =
+
+    54
+
+
+iters =
+
+    20
+
+
+ans =
+
+    32
+
+
+iters =
+
+    20
+
+
+ans =
+
+    46
+
+
+iters =
+
+    20
+
+
+ans =
+
+    27
+
+
+iters =
+
+    20
+
+
+ans =
+
+    37
+
+
+iters =
+
+    20
+
+
+ans =
+
+    17
+
+
+iters =
+
+    20
+
+
+ans =
+
+    12
+
+
+iters =
+
+    20
+
+
+ans =
+
+     2
+
+
+iters =
+
+    20
+
+
+ans =
+
+    23
+
+
+iters =
+
+    20
+
+
+ans =
+
+    50
+
+
+iters =
+
+    20
+
+
+ans =
+
+    41
+
+
+iters =
+
+    20
+
+
+ans =
+
+     6
+
+
+iters =
+
+    20
+
+
+ans =
+
+    60
+
+
+iters =
+
+    20
+
+
+ans =
+
+    26
+
+
+iters =
+
+    20
+
+
+ans =
+
+    31
+
+
+iters =
+
+    20
+
+
+ans =
+
+    16
+
+
+iters =
+
+    20
+
+
+ans =
+
+    63
+
+
+iters =
+
+    20
+
+
+ans =
+
+    36
+
+
+iters =
+
+    20
+
+
+ans =
+
+     1
+
+
+iters =
+
+    20
+
+
+ans =
+
+    11
+
+
+iters =
+
+    20
+
+
+ans =
+
+    74
+
+
+iters =
+
+    20
+
+
+ans =
+
+    68
+
+
+iters =
+
+    20
+
+
+ans =
+
+    70
+
+
+iters =
+
+    20
+
+
+ans =
+
+    59
+
+
+iters =
+
+    20
+
+
+ans =
+
+    22
+
+
+iters =
+
+    20
+
+
+ans =
+
+    62
+
+
+iters =
+
+    20
+
+
+ans =
+
+    66
+
+
+iters =
+
+    20
+
+
+ans =
+
+    72
+
+
+iters =
+
+    20
+
+
+ans =
+
+    78
+
+
+iters =
+
+    20
+
+
+ans =
+
+    76
+
+
+iters =
+
+    20
+
+
+ans =
+
+    79
+
+
+iters =
+
+    20
+
+
+ans =
+
+    80
+
+
+iters =
+
+    20
+
+
+ans =
+
+    21
+
+
+iters =
+
+    20
+
+
+ans =
+
+    65
+
+
+iters =
+
+    20
+
+
+ans =
+
+    67
+
+
+iters =
+
+    20
+
+
+ans =
+
+    69
+
+
+iters =
+
+    20
+
+
+ans =
+
+    58
+
+
+iters =
+
+    20
+
+
+ans =
+
+    71
+
+
+iters =
+
+    20
+
+
+ans =
+
+    73
+
+
+iters =
+
+    20
+
+
+ans =
+
+    61
+
+
+iters =
+
+    20
+
+
+ans =
+
+    75
+
+
+iters =
+
+    20
+
+
+ans =
+
+    77
+
+
+iters =
+
+    20
+
+
+ans =
+
+    81
+
+
+iters =
+
+    20
+
+
+ans =
+
+    82
+
+
+iters =
+
+    20
+
+
+ans =
+
+    83
+
+
+iters =
+
+    20
+
+
+ans =
+
+    64
+
+
+iters =
+
+    20
+
+
+ans =
+
+    85
+
+
+iters =
+
+    20
+
+
+ans =
+
+    86
+
+
+iters =
+
+    20
+
+
+ans =
+
+    87
+
+
+iters =
+
+    20
+
+
+ans =
+
+    88
+
+
+iters =
+
+    20
+
+
+ans =
+
+    89
+
+
+iters =
+
+    20
+
+
+ans =
+
+    84
+
+
+iters =
+
+    20
+
+
+ans =
+
+    90
+
+
+iters =
+
+    20
+
+
+adj_found =
+
+     0     0     1     1     1     1     1     1     1     1
+     0     0     0     0     1     1     0     1     1     1
+     1     0     0     1     1     1     1     1     1     1
+     1     0     1     0     1     1     0     1     1     1
+     1     1     1     1     0     1     1     1     1     1
+     1     1     1     1     1     0     1     1     1     1
+     1     1     1     0     1     1     0     1     1     1
+     1     1     1     1     1     1     1     0     1     1
+     1     1     1     1     1     1     1     1     0     1
+     1     1     1     1     1     1     1     1     1     0
+
+Current plot held
+Current plot released
+Current plot held
+Current plot released
+
+ans =
+
+    10    10
+
+
+ans =
+
+    35
+
+
+iters =
+
+    20
+
+
+ans =
+
+    45
+
+
+iters =
+
+    20
+
+
+ans =
+
+    40
+
+
+iters =
+
+    20
+
+
+ans =
+
+    20
+
+
+iters =
+
+    20
+
+
+ans =
+
+    10
+
+
+iters =
+
+    20
+
+
+ans =
+
+    15
+
+
+iters =
+
+    20
+
+
+ans =
+
+    57
+
+
+iters =
+
+    20
+
+
+ans =
+
+     5
+
+
+iters =
+
+    20
+
+
+ans =
+
+    25
+
+
+iters =
+
+    20
+
+
+ans =
+
+    49
+
+
+iters =
+
+    20
+
+
+ans =
+
+    53
+
+
+iters =
+
+    20
+
+
+ans =
+
+    30
+
+
+iters =
+
+    20
+
+
+ans =
+
+    44
+
+
+iters =
+
+    20
+
+
+ans =
+
+    39
+
+
+iters =
+
+    20
+
+
+ans =
+
+    19
+
+
+iters =
+
+    20
+
+
+ans =
+
+     9
+
+
+iters =
+
+    20
+
+
+ans =
+
+    14
+
+
+iters =
+
+    16
+
+
+ans =
+
+    56
+
+
+iters =
+
+    20
+
+
+ans =
+
+     4
+
+
+iters =
+
+    20
+
+
+ans =
+
+    24
+
+
+iters =
+
+    20
+
+
+ans =
+
+    48
+
+
+iters =
+
+    20
+
+
+ans =
+
+    52
+
+
+iters =
+
+    20
+
+
+ans =
+
+    29
+
+
+iters =
+
+    20
+
+
+ans =
+
+    34
+
+
+iters =
+
+    20
+
+
+ans =
+
+    43
+
+
+iters =
+
+    20
+
+
+ans =
+
+    38
+
+
+iters =
+
+    20
+
+
+ans =
+
+    18
+
+
+iters =
+
+    20
+
+
+ans =
+
+     8
+
+
+iters =
+
+    20
+
+
+ans =
+
+    13
+
+
+iters =
+
+    20
+
+
+ans =
+
+    55
+
+
+iters =
+
+    20
+
+
+ans =
+
+     3
+
+
+iters =
+
+    20
+
+
+ans =
+
+    23
+
+
+iters =
+
+    20
+
+
+ans =
+
+    47
+
+
+iters =
+
+    20
+
+
+ans =
+
+    51
+
+
+iters =
+
+    20
+
+
+ans =
+
+    28
+
+
+iters =
+
+    20
+
+
+ans =
+
+    42
+
+
+iters =
+
+    20
+
+
+ans =
+
+     7
+
+
+iters =
+
+    20
+
+
+ans =
+
+    54
+
+
+iters =
+
+    20
+
+
+ans =
+
+    22
+
+
+iters =
+
+    20
+
+
+ans =
+
+    12
+
+
+iters =
+
+    20
+
+
+ans =
+
+    46
+
+
+iters =
+
+    20
+
+
+ans =
+
+    27
+
+
+iters =
+
+    20
+
+
+ans =
+
+    37
+
+
+iters =
+
+    20
+
+
+ans =
+
+    17
+
+
+iters =
+
+    20
+
+
+ans =
+
+     2
+
+
+iters =
+
+    20
+
+
+ans =
+
+    50
+
+
+iters =
+
+    20
+
+
+ans =
+
+    33
+
+
+iters =
+
+    20
+
+
+ans =
+
+    41
+
+
+iters =
+
+    20
+
+
+ans =
+
+     6
+
+
+iters =
+
+    20
+
+
+ans =
+
+    21
+
+
+iters =
+
+    20
+
+
+ans =
+
+    60
+
+
+iters =
+
+    20
+
+
+ans =
+
+    26
+
+
+iters =
+
+    20
+
+
+ans =
+
+    16
+
+
+iters =
+
+    19
+
+
+ans =
+
+    63
+
+
+iters =
+
+    20
+
+
+ans =
+
+    11
+
+
+iters =
+
+    20
+
+
+ans =
+
+    36
+
+
+iters =
+
+    20
+
+
+ans =
+
+     1
+
+
+iters =
+
+    20
+
+
+ans =
+
+    32
+
+
+iters =
+
+    20
+
+
+ans =
+
+    68
+
+
+iters =
+
+    20
+
+
+ans =
+
+    72
+
+
+iters =
+
+    20
+
+
+ans =
+
+    59
+
+
+iters =
+
+    20
+
+
+ans =
+
+    70
+
+
+iters =
+
+    20
+
+
+ans =
+
+    66
+
+
+iters =
+
+    20
+
+
+ans =
+
+    74
+
+
+iters =
+
+    20
+
+
+ans =
+
+    79
+
+
+iters =
+
+    20
+
+
+ans =
+
+    76
+
+
+iters =
+
+    20
+
+
+ans =
+
+    78
+
+
+iters =
+
+    20
+
+
+ans =
+
+    80
+
+
+iters =
+
+    20
+
+
+ans =
+
+    62
+
+
+iters =
+
+    20
+
+
+ans =
+
+    67
+
+
+iters =
+
+    20
+
+
+ans =
+
+    65
+
+
+iters =
+
+    20
+
+
+ans =
+
+    69
+
+
+iters =
+
+    20
+
+
+ans =
+
+    71
+
+
+iters =
+
+    20
+
+
+ans =
+
+    58
+
+
+iters =
+
+    20
+
+
+ans =
+
+    73
+
+
+iters =
+
+    20
+
+
+ans =
+
+    61
+
+
+iters =
+
+    20
+
+
+ans =
+
+    75
+
+
+iters =
+
+    20
+
+
+ans =
+
+    77
+
+
+iters =
+
+    20
+
+
+ans =
+
+    82
+
+
+iters =
+
+    20
+
+
+ans =
+
+    81
+
+
+iters =
+
+    20
+
+
+ans =
+
+    31
+
+
+iters =
+
+    20
+
+
+ans =
+
+    64
+
+
+iters =
+
+    20
+
+
+ans =
+
+    83
+
+
+iters =
+
+    20
+
+
+ans =
+
+    85
+
+
+iters =
+
+    20
+
+
+ans =
+
+    86
+
+
+iters =
+
+    20
+
+
+ans =
+
+    84
+
+
+iters =
+
+    20
+
+
+ans =
+
+    87
+
+
+iters =
+
+    20
+
+
+ans =
+
+    88
+
+
+iters =
+
+    20
+
+
+ans =
+
+    89
+
+
+iters =
+
+    20
+
+
+ans =
+
+    90
+
+
+iters =
+
+    20
+
+
+adj_found =
+
+     0     1     0     0     0     0     0     0     0     0
+     1     0     1     1     0     1     1     1     0     0
+     0     1     0     0     0     0     0     0     0     0
+     0     1     0     0     0     0     1     0     0     0
+     0     0     0     0     0     0     0     0     0     0
+     0     1     0     0     0     0     0     0     0     0
+     0     1     0     1     0     0     0     0     0     0
+     0     1     0     0     0     0     0     0     0     0
+     0     0     0     0     0     0     0     0     0     0
+     0     0     0     0     0     0     0     0     0     0
+
+Current plot held
+Current plot released
+Current plot held
+Current plot released
+
+ans =
+
+    10    10
+
+
+ans =
+
+    35
+
+
+iters =
+
+    20
+
+
+ans =
+
+    45
+
+
+iters =
+
+    20
+
+
+ans =
+
+    40
+
+
+iters =
+
+    20
+
+
+ans =
+
+    20
+
+
+iters =
+
+    20
+
+
+ans =
+
+    10
+
+
+iters =
+
+    20
+
+
+ans =
+
+    15
+
+
+iters =
+
+    20
+
+
+ans =
+
+    57
+
+
+iters =
+
+    20
+
+
+ans =
+
+     5
+
+
+iters =
+
+    20
+
+
+ans =
+
+    25
+
+
+iters =
+
+    20
+
+
+ans =
+
+    49
+
+
+iters =
+
+    20
+
+
+ans =
+
+    53
+
+
+iters =
+
+    20
+
+
+ans =
+
+    30
+
+
+iters =
+
+    20
+
+
+ans =
+
+    34
+
+
+iters =
+
+    20
+
+
+ans =
+
+    44
+
+
+iters =
+
+    20
+
+
+ans =
+
+    39
+
+
+iters =
+
+    20
+
+
+ans =
+
+    19
+
+
+iters =
+
+    20
+
+
+ans =
+
+     9
+
+
+iters =
+
+    20
+
+
+ans =
+
+    56
+
+
+iters =
+
+    20
+
+
+ans =
+
+     4
+
+
+iters =
+
+    20
+
+
+ans =
+
+    24
+
+
+iters =
+
+    20
+
+
+ans =
+
+    48
+
+
+iters =
+
+    20
+
+
+ans =
+
+    52
+
+
+iters =
+
+    20
+
+
+ans =
+
+    29
+
+
+iters =
+
+    20
+
+
+ans =
+
+    33
+
+
+iters =
+
+    20
+
+
+ans =
+
+    43
+
+
+iters =
+
+    20
+
+
+ans =
+
+    38
+
+
+iters =
+
+    20
+
+
+ans =
+
+    18
+
+
+iters =
+
+    20
+
+
+ans =
+
+     8
+
+
+iters =
+
+    20
+
+
+ans =
+
+    14
+
+
+iters =
+
+    20
+
+
+ans =
+
+    55
+
+
+iters =
+
+    20
+
+
+ans =
+
+     3
+
+
+iters =
+
+    20
+
+
+ans =
+
+    23
+
+
+iters =
+
+    20
+
+
+ans =
+
+    47
+
+
+iters =
+
+    20
+
+
+ans =
+
+    51
+
+
+iters =
+
+    20
+
+
+ans =
+
+    28
+
+
+iters =
+
+    20
+
+
+ans =
+
+    42
+
+
+iters =
+
+    20
+
+
+ans =
+
+    54
+
+
+iters =
+
+    20
+
+
+ans =
+
+    22
+
+
+iters =
+
+    20
+
+
+ans =
+
+    32
+
+
+iters =
+
+    20
+
+
+ans =
+
+     7
+
+
+iters =
+
+    20
+
+
+ans =
+
+    46
+
+
+iters =
+
+    20
+
+
+ans =
+
+    27
+
+
+iters =
+
+    20
+
+
+ans =
+
+    37
+
+
+iters =
+
+    20
+
+
+ans =
+
+    17
+
+
+iters =
+
+    20
+
+
+ans =
+
+     2
+
+
+iters =
+
+    20
+
+
+ans =
+
+    50
+
+
+iters =
+
+    20
+
+
+ans =
+
+    41
+
+
+iters =
+
+    20
+
+
+ans =
+
+    13
+
+
+iters =
+
+    20
+
+
+ans =
+
+    21
+
+
+iters =
+
+    20
+
+
+ans =
+
+     6
+
+
+iters =
+
+    20
+
+
+ans =
+
+    60
+
+
+iters =
+
+    20
+
+
+ans =
+
+    31
+
+
+iters =
+
+    20
+
+
+ans =
+
+    26
+
+
+iters =
+
+    20
+
+
+ans =
+
+    36
+
+
+iters =
+
+    20
+
+
+ans =
+
+    63
+
+
+iters =
+
+    20
+
+
+ans =
+
+     1
+
+
+iters =
+
+    20
+
+
+ans =
+
+    16
+
+
+iters =
+
+    20
+
+
+ans =
+
+    74
+
+
+iters =
+
+    20
+
+
+ans =
+
+    68
+
+
+iters =
+
+    20
+
+
+ans =
+
+    72
+
+
+iters =
+
+    20
+
+
+ans =
+
+    12
+
+
+iters =
+
+    20
+
+
+ans =
+
+    59
+
+
+iters =
+
+    20
+
+
+ans =
+
+    70
+
+
+iters =
+
+    20
+
+
+ans =
+
+    66
+
+
+iters =
+
+    20
+
+
+ans =
+
+    76
+
+
+iters =
+
+    20
+
+
+ans =
+
+    78
+
+
+iters =
+
+    20
+
+
+ans =
+
+    79
+
+
+iters =
+
+    20
+
+
+ans =
+
+    62
+
+
+iters =
+
+    20
+
+
+ans =
+
+    80
+
+
+iters =
+
+    20
+
+
+ans =
+
+    67
+
+
+iters =
+
+    20
+
+
+ans =
+
+    65
+
+
+iters =
+
+    20
+
+
+ans =
+
+    69
+
+
+iters =
+
+    20
+
+
+ans =
+
+    58
+
+
+iters =
+
+    20
+
+
+ans =
+
+    71
+
+
+iters =
+
+    20
+
+
+ans =
+
+    73
+
+
+iters =
+
+    20
+
+
+ans =
+
+    75
+
+
+iters =
+
+    20
+
+
+ans =
+
+    61
+
+
+iters =
+
+    20
+
+
+ans =
+
+    77
+
+
+iters =
+
+    20
+
+
+ans =
+
+    81
+
+
+iters =
+
+    20
+
+
+ans =
+
+    82
+
+
+iters =
+
+    20
+
+
+ans =
+
+    11
+
+
+iters =
+
+    20
+
+
+ans =
+
+    64
+
+
+iters =
+
+    20
+
+
+ans =
+
+    83
+
+
+iters =
+
+    20
+
+
+ans =
+
+    84
+
+
+iters =
+
+    20
+
+
+ans =
+
+    86
+
+
+iters =
+
+    20
+
+
+ans =
+
+    85
+
+
+iters =
+
+    20
+
+
+ans =
+
+    87
+
+
+iters =
+
+    20
+
+
+ans =
+
+    88
+
+
+iters =
+
+    20
+
+
+ans =
+
+    89
+
+
+iters =
+
+    20
+
+
+ans =
+
+    90
+
+
+iters =
+
+    20
+
+
+adj_found =
+
+     0     0     0     0     0     0     0     0     0     0
+     0     0     0     0     0     0     1     0     1     0
+     0     0     0     0     0     0     1     0     1     0
+     0     0     0     0     1     0     0     0     0     0
+     0     0     0     0     0     1     1     0     0     0
+     0     1     0     0     0     0     1     0     0     0
+     0     0     1     1     0     0     0     1     1     1
+     0     0     0     0     0     1     0     0     0     0
+     0     0     1     1     0     0     0     0     0     1
+     0     0     0     0     1     0     1     0     1     0
+
+Current plot held
+Current plot released
+Current plot held
+Current plot released
+>> 

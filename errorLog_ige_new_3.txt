@@ -1,0 +1,14 @@
+License checkout failed.
+License Manager Error -4
+Maximum number of users for MATLAB reached. 
+Try again later. 
+To see a list of current users use the lmstat utility or contact your License Administrator.
+
+Troubleshoot this issue by visiting: 
+http://www.mathworks.com/support/lme/R2014b/4
+
+Diagnostic Information:
+Feature: MATLAB 
+License path: /home/cse/btech/cs1120240/.matlab/R2014b_licenses:/home/apps/MATLAB/R2014b/licenses/license.dat:/hom
+e/apps/MATLAB/R2014b/licenses/network.lic 
+Licensing error: -4,132.

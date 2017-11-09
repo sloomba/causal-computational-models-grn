@@ -1,0 +1,3 @@
+The investigator need only worry about two scripts in this folder, for  intrinsic graph estimation analysis: 1. master_ige_simple.m: to be used in case of a simple dataset. To use, simply change the first variable 'name' to the NAME of the dataset 'data_NAME.mat' 2. master_ige.m: to be used in case of a composite dataset. To use, simply change the first variable 'name' to the NAME of the dataset 'data_NAME.mat'
+Running this script requires for you to have successfully run the script ../pairwise/master_roctests_simple.m and ../pairwise/master_roctests.m respectively.
+As you can see, there are many variations to IGE, and have been written analogously to the original script.

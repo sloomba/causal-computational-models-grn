@@ -1,0 +1,8 @@
+function [ te_mat ] = GRNTE( grn_data, lag, order )
+%Finds out transfer entropy between nodes of GRN, given the lag and the
+%order.
+
+
+
+end
+

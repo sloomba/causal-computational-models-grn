@@ -1,0 +1,1 @@
+Contains a lot of scripts used for experimenting with ideas. Shouldn't need a lot of explanation.
